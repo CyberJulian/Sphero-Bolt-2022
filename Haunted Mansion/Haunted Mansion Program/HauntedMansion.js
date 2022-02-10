@@ -29,4 +29,5 @@ async function startProgram() {
 	await roll (50, 25, 3)
 	await roll (-50, 200, 2)
 	await Sound.Effects.Laser.play(true)
+	setMainLed({ r: 255, g: 0, b: 255})
 }
