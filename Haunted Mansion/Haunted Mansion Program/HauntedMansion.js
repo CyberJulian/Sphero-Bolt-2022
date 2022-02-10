@@ -25,4 +25,5 @@ async function startProgram() {
 	await roll (390, 23, 4)
 	await roll (120, 20, 5)
 	await Sound.Effects.Explosion.play(true)
+	setMainLed({ r:0, g:255, b:0})
 }
