@@ -20,4 +20,9 @@ async function startProgram() {
 	await Sound.Water.BoatAngry.play(true)
 	await roll (220, 90, .5)
 	setMainLed ({r: 255, g: 0, b: 0})
+	await roll (100, 90, .2)
+	await roll (100, 30, 2)
+	await roll (390, 23, 4)
+	await roll (120, 20, 5)
+	await Sound.Effects.Explosion.play(true)
 }
